@@ -185,3 +185,44 @@
 
 //     return 0;
 // }
+
+
+
+// insection of two array
+// #include <iostream>
+// using namespace std;
+
+// int main() {
+//     int nums1[] = {1, 2, 5, 6, 2, 1};
+//     int nums2[] = {2, 5};
+//     int size1 = sizeof(nums1) / sizeof(nums1[0]);
+//     int size2 = sizeof(nums2) / sizeof(nums2[0]);
+
+//     int result[100]; 
+//     int k = 0;
+
+//     for (int i = 0; i < size1; i++) {
+//         for (int j = 0; j < size2; j++) {
+//             if (nums1[i] == nums2[j]) {
+//                 // Check if already added to result
+//                 bool alreadyExists = false;
+//                 for (int m = 0; m < k; m++) {
+//                     if (result[m] == nums1[i]) {
+//                         alreadyExists = true;
+//                         break;
+//                     }
+//                 }
+//                 if (!alreadyExists) {
+//                     result[k++] = nums1[i];
+//                 }
+//                 break; // move to next nums1[i]
+//             }
+//         }
+//     }
+
+//     // Print the result
+//     for (int i = 0; i < k; i++) {
+//         cout << result[i] << " ";
+//     }
+//     return 0;
+// }
